@@ -1008,7 +1008,7 @@ ul.link li a::after {
 .copyright {
      margin-top: 70px;
      padding: 20px 0px;
-     background-color: #f4cb1e;
+     background-color: #f4891e;
 }
 
 .copyright p {
@@ -1023,7 +1023,7 @@ ul.link li a::after {
 }
 
 .copyright a:hover {
-     color: #212121;
+     color: #2d147d;
 }
 
 
