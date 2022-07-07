@@ -394,8 +394,9 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     /* background: url(/images/choose_bottom_cross.png);background: url(../images/banner.jpg); */
-     background-color: #292e39;
+     background: url(/images/front1.jpg);
+     /* background: url(../images/banner.jpg); */
+     /* background-color: #292e39; */
      background-repeat: no-repeat;
      min-height: 840px;
      background-size: 100% 100%;
