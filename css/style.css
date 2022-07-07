@@ -404,7 +404,7 @@ ul.btn li:last-child {
      justify-content: center;
      align-content: center;
      align-items: center;
-     opacity: 0.7;
+     /* opacity: 0.7; */
      
 }
 
