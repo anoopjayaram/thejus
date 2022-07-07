@@ -42,6 +42,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     background: url(/images/bg.jpg );
 }
 
 a {
@@ -394,7 +395,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-      background: url(/images/bg.jpg );
+    
      /* background: url(../images/banner.jpg); */
      /* background-color: #292e39; */
      background-repeat: no-repeat;
