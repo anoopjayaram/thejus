@@ -394,13 +394,13 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-      background: url(https://github.com/anoopjayaram/thejus/blob/master/images/banner.jpg);
+      background: url(/images/bg.jpg );
      /* background: url(../images/banner.jpg); */
      /* background-color: #292e39; */
      background-repeat: no-repeat;
      min-height: 840px;
-     background-size: 100% 100%;
-     display: flex;
+     /* background-size: 100% 100%;
+     display: flex; */
      justify-content: center;
      align-content: center;
      align-items: center;
