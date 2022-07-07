@@ -394,7 +394,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(/images/front1.jpg);
+      background: url(/images/banner.jpg);
      /* background: url(../images/banner.jpg); */
      /* background-color: #292e39; */
      background-repeat: no-repeat;
