@@ -46,7 +46,7 @@ body {
 }
 
 a {
-     color: #1f1f1f;
+     color: #532929;
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
@@ -408,6 +408,7 @@ ul.btn li:last-child {
  
   background-position: center center;
   background-size: auto; 
+  box-shadow: #0808ff;
 
 
      /* opacity: 0.7; */
@@ -420,12 +421,13 @@ ul.btn li:last-child {
 
 .text-bg h1 {
      text-transform: uppercase;
-     color: rgb(19, 45, 19);
+     color: #EFC7B7;
      font-size: 110px;
      line-height: 120px;
      padding-bottom: 15px;
      font-weight: bold;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: Ubuntu;
+     letter-spacing: 4px;
 }
 
 .text-bg p {
@@ -468,7 +470,7 @@ ul.btn li:last-child {
 
 .titlepage h2 {
      font-size: 50px;
-     color: #090807;
+     color: #ba8550;
      line-height: 62px;
      font-weight: bold;
      padding: 0;
@@ -925,15 +927,15 @@ ul.location_icon {
 
 ul.location_icon li {
      display: inline-block;
-     font-size: 18px;
+     font-size: 16px;
      line-height: 20px;
-     color: #fff;
+     color: rgb(197, 157, 157);
      padding-bottom: 25px;
 }
 
 ul.location_icon li a {
      font-size: 30px;
-     color: #fff;
+     color: rgb(76, 116, 154);
      line-height: 30px;
      padding-right: 15px;
 }
@@ -946,7 +948,7 @@ ul.location_icon li a:hover {
      font-weight: 600;
      font-size: 22px;
      text-align: left;
-     color: #fff;
+     color: rgb(230, 221, 221);
      padding-bottom: 15px;
 }
 
@@ -955,7 +957,7 @@ ul.link {
 }
 
 ul.link li a {
-     color: #fff;
+     color: rgb(197, 157, 157);
      font-size: 17px;
      line-height: 20px;
      padding-bottom: 15px;
