@@ -228,7 +228,7 @@
                      </div>
                   </div>
                   <div class="col-md-12">
-                     <form id="request" class="main_form">
+                     <form id="submit-form" class="main_form">
                         <div class="row">
                            <div class="col-md-3 ">
                               <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
@@ -332,6 +332,25 @@
           inline: 'center'
         });
       }
-    </script>
+
+         $("#submit-form").submit((e)=>{
+             e.preventDefault()
+             $.ajax({
+                 url:"https://script.google.com/macros/s/AKfycbwCAFwdJLd3wB6eeELKICJ6Lwn12pLTkkBM9e71Yzv00DcxWrD0wlpNvBFt8Nr3e7iezA/exec",
+                 data:$("#submit-form").serialize(),
+                 method:"post",
+                 success:function (response){
+                     alert("Form submitted successfully")
+                     window.location.reload()
+                     window.location.href="/index.html"
+                 },
+                 error:function (err){
+                     alert("Something Error")
+     
+                 }
+             })
+         })
+     </script>
+
 </html>
 
