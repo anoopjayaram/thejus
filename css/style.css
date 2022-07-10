@@ -396,7 +396,7 @@ ul.btn li:last-child {
 
 .banner_main {
  
-     background: url(/images/welding.png);
+     background: url(https://github.com/anoopjayaram/thejus/blob/master/images/welding.png);
      /* background-color: #292e39; */
       background-repeat: no-repeat;
      min-height: 840px;
@@ -420,11 +420,12 @@ ul.btn li:last-child {
 
 .text-bg h1 {
      text-transform: uppercase;
-     color: rgb(233, 110, 9);
+     color: rgb(19, 45, 19);
      font-size: 110px;
      line-height: 120px;
      padding-bottom: 15px;
      font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text-bg p {
