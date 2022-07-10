@@ -204,67 +204,32 @@
                </div>
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                   <div class="product_box">
-                     <figure><img src="images/work1.jpg" alt="#"/></figure>
+                     <figure><img src="images/work9.jpeg" alt="#"/></figure>
                      <h3 class="black"></h3>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                   <div class="product_box">
-                     <figure><img src="images/work2.jpg" alt="#"/></figure>
+                     <figure><img src="images/work10.jpeg" alt="#"/></figure>
                      <h3 > </h3>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                   <div class="product_box">
-                     <figure><img src="images/work3.jpg" alt="#"/></figure>
+                     <figure><img src="images/work11.jpeg" alt="#"/></figure>
                      <h3>  </h3>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                   <div class="product_box">
-                     <figure><img src="images/work4.jpg" alt="#"/></figure>
-                     <h3>  </h3>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                  <div class="product_box">
-                     <figure><img src="images/work1.jpg" alt="#"/></figure>
-                     <h3 class="black"></h3>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                  <div class="product_box">
-                     <figure><img src="images/work2.jpg" alt="#"/></figure>
-                     <h3 > </h3>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                  <div class="product_box">
-                     <figure><img src="images/work3.jpg" alt="#"/></figure>
-                     <h3>  </h3>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                  <div class="product_box">
-                     <figure><img src="images/work4.jpg" alt="#"/></figure>
+                     <figure><img src="images/work12.jpeg" alt="#"/></figure>
                      <h3>  </h3>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      
-      
       </div>
-      <!-- <div id="element">
-         <h2> 
-           Click on the scroll button
-         </h2>
-         <div id="el1">
-           <h2>Element-1</h2> </div>
-         <div id="el2">
-           <h2>Element-2</h2> </div>
-       </div> -->
       <!--  footer -->
       <footer id="contact">
          <div class="footer">
@@ -279,13 +244,13 @@
                      <form id="submit-form" class="main_form">
                         <div class="row">
                            <div class="col-md-3 ">
-                              <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                              <input class="contactus" placeholder="Full Name" type="type" name="Full Name" required onfocus="this.value=''" > 
                            </div>
                            <div class="col-md-3">
-                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                              <input class="contactus" placeholder="Email" type="type" name="Email" requiredonfocus="this.value=''" >
                            </div>
                            <div class="col-md-3">
-                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                              <input class="contactus" placeholder="Phone Number"   type="type" name="Phone Number" required onfocus="this.value=''"  >                      
                            </div>
                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                               <ul class="social_icon">
@@ -296,7 +261,7 @@
                               </ul>
                            </div>
                            <div class="col-md-8">
-                              <textarea class="contactus1" placeholder="Message" type="type" Message="Name">Message </textarea>
+                              <textarea class="contactus1" placeholder="Message" type="type" Message="Name" required onfocus="this.value=''" >Message </textarea>
                            </div>
                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                               <button class="send_btn">Send</button>
@@ -312,16 +277,6 @@
                         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>thejusaluminium@gmail.com</li>
                      </ul>
                   </div>
-                  <!-- <div class="col-md-3 border_right">
-                     <h3>Useful Link</h3>
-                     <ul class="link">
-                        <li><a href="#">humour, or </a></li>
-                        <li><a href="#">randomised words </a> </li>
-                        <li><a href="#">which don't look </a></li>
-                        <li><a href="#">even slightly  </a> </li>
-                        <li><a href="#">believable. If   </a></li>
-                     </ul>
-                  </div> -->
                   <div class="col-md-3 border_right">
                      <h3>Menus</h3>
                      <ul class="link">
@@ -385,7 +340,7 @@
          $("#submit-form").submit((e)=>{
              e.preventDefault()
              $.ajax({
-                 url:"https://script.google.com/macros/s/AKfycbwCAFwdJLd3wB6eeELKICJ6Lwn12pLTkkBM9e71Yzv00DcxWrD0wlpNvBFt8Nr3e7iezA/exec",
+                 url:"https://script.google.com/macros/s/AKfycbwyGXGhItwVHTHS0JopfgDxS6D-KfHzWR5XeXM3VZ7SNQdWuH6WHnHH0yz3j5YDpYWV/exec",
                  data:$("#submit-form").serialize(),
                  method:"post",
                  success:function (response){
